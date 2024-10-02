@@ -72,7 +72,7 @@ The screw holes are designed to be 2.5mm, but depending on the screws used and t
 ※ If you intend to frequently remove and reattach the board, consider using insert nuts.  
 Also, finishing touches like chamfering or trimming burrs will also improve the overall appearance.
 
-## Enjoy Customize!
+## Enjoy Customizing!
 Adding decals, using multi-colored filaments, or painting can make for a fun, personalized finish.  
 Enjoy your DIY mining journey! I can't wait to see how you "Kaizen" it with your own improvements and versions!
 
