@@ -1,5 +1,11 @@
 # AirLiftFrame for Bitaxe
 
+![LookBook001](https://github.com/user-attachments/assets/958fb795-c514-4384-9613-e2dcbe5ccbb6)
+
+![LookBook002](https://github.com/user-attachments/assets/3c4bf8c0-1905-4f12-b9bd-7d9485f5ff94)
+
+![HomeView](https://github.com/tko-combinator/BitaxeAirLiftFrame/blob/main/images/HomeView.png)	
+
 ## 概要
 Bitaxe Supra(401) を基準に設計されています。未検証ではありますが、2024年10月現在に流通しているシングルASICのBitaxeであれば概ね適合すると思われます。   
 基板の端子からケースの縁まで距離があるため、USB-CやDC電源のコネクタはある程度長いストレートタイプのものを推奨します。  
