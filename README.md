@@ -10,11 +10,33 @@
 Bitaxe Supra(401) を基準に設計されています。未検証ではありますが、2024年10月現在に流通しているシングルASICのBitaxeであれば概ね適合すると思われます。   
 基板の端子からケースの縁まで距離があるため、USB-CやDC電源のコネクタはある程度長いストレートタイプのものを推奨します。  
 しかし、少し苦労をすればL字型や短いコネクタを使用して、コネクタ類が目立たないように取り付ける事も出来ます。
+※リリース後にいくつかのモデルを購入検証したので、適合確認済み機種の項目を追加しました。
+
+## 検証済み適合機種
+基板の製造上の誤差や3Dプリント時の誤差や歪みなどによって、多少の調整が必要になるかもわかりません。
+* Bitaxe Supra(402)
+* Bitaxe Ultra(205)
+* Bitaxe Gamma(601)
+
+## ファイルの説明
+
+### 1. **AirLiftFrame.stl**  
+AirLiftFrameの基本設計ファイルです。
+こちら利用を推奨します。
+
+### 2. **AirLiftFrame_InsertNut_3-8mmHoles_test.stl**  
+インサートナット用に、ネジ穴を3.8mmに拡張したバージョンです。
+本バージョンはテスト中です。
+
+### 3. **AirLiftFrame_BackCooler.stl**  
+背面に取り付けられたクーラーを特徴とするバージョンです。 
+**適合ファンサイズ：8cm**  
+現在、冷却効果を検証中です。
 
 ## 必要な部品
-M3のタッピングネジ
+* M3のタッピングネジ
 (基板とマウンターの厚みが7mmのため、6mmの長さが推奨されます)
-必要に応じて、インサートナットおよび適合するネジを用意してください。
+* 必要に応じて、インサートナットおよび適合するネジを用意してください。
 
 ## 製造情報
 私は、AnkerMake M5を使用し、標準の0.4mmノズルと純正のPLA+フィラメントで出力しました。  
@@ -49,6 +71,28 @@ M3のタッピングネジ
 This case is designed based on the Bitaxe Supra (401). Although unverified, it is expected to be compatible with most single-ASIC Bitaxe models available as of October 2024.  
 Since there is a distance between the terminals of the board and the edge of the case, we recommend using a relatively long, straight USB-C or DC power connector.  
 However, with some effort, you can use an L-shaped or shorter connector to make the connection points less visible.
+I’ve added a list of confirmed compatible models based on our post-release tests. 
+
+## Confirmed Models
+Due to manufacturing tolerances in the circuit board or errors and distortions during 3D printing, slight adjustments may be required.
+* Bitaxe Supra(402)
+* Bitaxe Ultra(205)
+* Bitaxe Gamma(601)
+
+## File Descriptions
+
+### 1. **AirLiftFrame.stl**  
+This is the standard design file for AirLiftFrame.  
+This version is recommended for general use.
+
+### 2. **AirLiftFrame_InsertNut_3-8mmHoles_test.stl**  
+This version features screw holes expanded to 3.8mm for insert nuts.  
+Please note that this version is currently under testing.
+
+### 3. **AirLiftFrame_BackCooler.stl**  
+This variant is designed with a back-mounted cooler.  
+**Compatible fan size: 8cm**  
+The cooling effect is currently under evaluation.
 
 ## Required Parts
 M3 tapping screws  
